@@ -1,0 +1,13 @@
+    // comparing integers directly using the max algorithm
+
+    int a = 11, b = -12, c = 20;
+
+    const int& result1 = max(a, b, mod_greater);
+
+    const int& result2 = max(b, c);
+
+    cout<<"The mod_greater of the integers 11 and -12 is: "<<result1<<endl;
+
+    cout<<"The larger of the integers -12 and 20 is: "<<result2<<endl;
+
+    cout<<endl;
